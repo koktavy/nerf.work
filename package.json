@@ -11,10 +11,10 @@
   "author": "Tavius Koktavy",
   "license": "ISC",
   "devDependencies": {
-    "@types/three": "^0.153.0",
+    "@types/three": "^0.157.2",
     "file-loader": "^6.2.0",
     "raw-loader": "^4.0.2",
-    "three": "^0.154.0",
+    "three": "^0.157.0",
     "ts-loader": "^9.4.4",
     "typescript": "^5.0.2",
     "url-loader": "^4.1.1",
@@ -24,6 +24,7 @@
     "webpack-merge": "^5.9.0"
   },
   "dependencies": {
+    "@lumaai/luma-web": "^0.1.17",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3"
   }
