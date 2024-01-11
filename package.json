@@ -1,0 +1,30 @@
+{
+  "name": "glitch-park-repo",
+  "version": "1.0.0",
+  "description": "Immersive Single-Page Web App for Glitch Park",
+  "main": "grid.js",
+  "scripts": {
+    "dev": "webpack serve --config ./webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tavius Koktavy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.153.0",
+    "file-loader": "^6.2.0",
+    "raw-loader": "^4.0.2",
+    "three": "^0.154.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.0.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3"
+  }
+}
